@@ -1,0 +1,478 @@
+.App {
+  text-align: center;
+}
+
+body{
+  margin: 0;
+  background: rgb(21, 28, 61);
+  color: rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.App-header{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3%;
+  padding-top: 1.5%;
+}
+
+.connectwalletbutton{
+  padding: 5px 15px;  
+  font-family: monospace;
+  font-size: 1.05rem;
+}
+
+.metamask{
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+
+
+.App-header{
+    border-bottom: 1px solid rgb(255, 255, 255);    
+    padding-bottom: 10px;
+
+}
+
+.Navbar{
+    display: flex;
+    width: 100%;
+}
+.navlinkcontainer{
+    margin-right: auto;
+    padding-top: 7.5px;
+    margin-left: 3%;
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.aboutlink{
+  color: rgb(178, 177, 245);
+  text-decoration: none;
+  
+}
+.about{
+  /* margin-right: auto;*/
+  margin-left: 7%; 
+  font-size: 1rem;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.footer{
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 0.61rem;
+}
+
+
+
+.footer a{
+  font-size: larger;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.footer h2{
+  padding-bottom: 12px;
+}
+
+.icon{
+  vertical-align: middle;
+  color: whitesmoke;
+}
+
+.footermove{
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 0.61rem;
+  top: 1140px;
+}
+
+.footermove a{
+  font-size: larger;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.footermove h2{
+  padding-bottom: 12px;
+  color: white;
+}
+
+.fdontmove{
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid rgb(255, 255, 255);
+  font-weight: normal;
+  font-size: 0.61rem;
+  top: 650px;
+}
+.fdontmove a{
+  font-size: larger;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.fdontmove h2{
+  padding-bottom: 12px;
+  color: white;
+}
+
+.footermoveh2{
+  color: rgb(214, 207, 102);
+}
+
+.txhistoryheader{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 3%;
+  margin:  5px ;
+  align-items: center;
+}
+
+.txhistoryheader h2{
+  margin-left: 10px;
+}
+
+.refreshmypositions{
+  max-height: 40px;
+  align-items: center;
+  box-shadow: 2px 2px 5px #ffffff;
+  border-radius: 5px;
+  background-color: rgb(21, 28, 61);
+  border: 1px solid white;
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  font-family: monospace;
+}
+.refreshmypositions :hover{
+  cursor: pointer;
+
+}
+.tablecontainer{
+  padding: 5px 3%;
+  margin:  15px auto;
+  margin-top: 0;
+}
+.tablecontainer h2{
+  margin : 0 auto;
+}
+.tablecontainerinside{
+  border: 1.5px solid whitesmoke;
+}
+
+.txhistory{
+  border:  1px solid white; 
+  margin: 35px 13.0%;  
+}
+
+
+.dirlong{
+  color: rgb(9, 115, 46);
+  
+}
+
+.dirshort{
+  color: rgb(119, 20, 20);
+}
+
+.Tablerow{
+  background: rgb(206, 206, 209);
+}
+
+.rowopen{
+  background: rgb(155, 161, 190);
+}
+
+.rowwon{
+  background: rgb(163, 223, 187);
+  max-height: 50px;
+}
+
+.rowloss{
+  background: rgb(223, 157, 165);
+}
+
+.theadcells{
+  font-weight: bold;;
+}
+
+.closeoption{
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 6px white;
+  background: rgb(53, 59, 89);
+  border: 1px solid rgb(59, 53, 53);
+  color: rgb(255, 255, 255);
+}
+
+.closeoption :hover{
+  cursor: pointer;
+
+  
+}
+.closeoption :active{
+  background: rgb(238, 177, 177);
+  box-shadow: 1px 1px 3px rgb(206, 112, 112);
+  padding: 8px 15px;
+
+}
+
+.prevsigns{
+  
+  padding: 10px;
+  padding-left: 15px;
+  font-family: monospace;
+  font-weight: normal;
+  
+  border: 1px solid rgb(20, 20, 41);
+  margin: 15px 15px;
+}
+
+/* .prevsigns::-webkit-scrollbar {
+  display: none;
+} */
+
+.TableBody::-webkit-scrollbar {
+  width: 0.43em;
+}
+ 
+.TableBody::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(226, 206, 206, 0.893);
+}
+ 
+.TableBody::-webkit-scrollbar-thumb {
+  background-color: rgb(57, 52, 52);
+  outline: 1px solid slategrey;
+}
+
+.TableBody{
+  max-height: 350.00px;
+  overflow: scroll;
+}
+
+.betcard{
+  max-width: 70%;
+  margin: auto;
+  width: 450px;
+  margin:  50px auto;
+}
+
+.pairscontainer{
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.betcardcontainer{
+  max-width: 90%;
+  border: 1px solid white;
+  background: rgb(160, 162, 203);
+
+}
+
+.betcardcontainer h4{
+  margin: 25px;
+  font-size: 1.25rem;
+}
+
+.twitter{
+  color: rgb(0, 123, 255);
+}
+
+.hammer {
+  font-size: 1.15rem;
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+.liveprice{
+  color: black;
+  font-size: 1.25rem;
+}
+
+.ethbutton{
+  background: rgb(146, 151, 243);
+  border: 1px solid white;
+  border-bottom: none;
+  color: rgb(18, 3, 30);
+  padding: 8px 30px 8px 30px;
+  box-shadow: 1px -2px 5px rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.btcbutton{
+  background: rgb(146, 151, 243);
+  border: 1px solid white;
+  border-bottom: none;
+  color: rgb(18, 3, 30);
+  padding: 8px 30px 8px 30px;
+  box-shadow: -1px -2px 5px white;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1rem;
+
+}
+
+.no_ethbutton{
+  background: rgb(21, 28, 61);
+  border: 1px solid white;
+  border-bottom: none;
+  color: rgb(225, 215, 234);
+  padding: 8px 30px 8px 30px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1rem;
+}
+.no_btcbutton{
+  background: rgb(21, 28, 61);
+  border: 1px solid white;
+  border-bottom: none;
+  color: rgb(225, 215, 234);
+  padding: 8px 30px 8px 30px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.rise{
+  font-size: 1.5rem;
+  vertical-align: middle;
+  font-weight: bold;
+  margin: 5px;
+
+}
+.fall{
+  font-size: 1.5rem;
+  vertical-align: middle;
+  font-weight: bold;
+  margin: 5px;
+}
+.long{
+  background-color: rgb(118, 232, 110);
+  border: 0.5px solid black;
+  align-items: center;
+  padding-left: 15.0px;
+  margin-right: 4px;
+  font-family: monospace;
+  font-weight: bold;
+}
+.short{
+ background-color: rgb(221, 117, 103); 
+  border: 0.5px solid black;
+  align-items: center;
+  padding-left: 15.0px;
+  margin-left: 4px;
+  font-family: monospace;
+  font-weight: bold;
+}
+.long :active{
+  background-color: rgb(118, 232, 110);
+  border: 1.5px solid black;
+  box-shadow: -2px 2px 5px   rgb(118, 232, 110);
+}
+.short :active{
+  background-color: rgb(212, 82, 65); 
+  border: 1.5px solid black;
+  box-shadow: -2px 2px 5px  rgb(212, 82, 65);
+
+}
+.long :hover{
+
+  cursor: pointer;
+
+}
+.short :hover{
+ 
+  cursor: pointer;
+}
+
+.longorshort{
+  margin: 15px auto;
+}
+
+input{
+  width: 50px;
+  /* padding: 3px 32px; */
+  margin: 0px 5px 10px;
+  padding: 2px 5px;
+  padding-right: 23.0px;
+  padding-left: 10px;
+  font-size: 1.05rem;
+}
+
+
+label{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.faeth{
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+
+.aboutsection{
+  margin: 15px 18.0%;
+}
+
+.aboutsection h5{
+  margin: 5px auto 0;
+  font-size: 1.25rem;
+  font-family: monospace;
+  font-weight: lighter;
+  color: rgb(143, 146, 243);
+}
+
+#whatisthis{
+  margin-top: 15px;
+}
+.aboutsection p{
+  font-size: 01rem;
+  font-family: monospace;
+  font-weight: lighter;
+}
+
+.contractview{
+  color:  rgb(178, 177, 245);
+  text-decoration: none;
+  margin-left: 7%;
+}
+
+.switchnetwork{
+  padding: 8px 12px;
+  font-family: monospace;
+  margin-left: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.warnings{
+  justify-content: start;
+  align-items: start;
+}
+
+
+.rewardwarn{
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
